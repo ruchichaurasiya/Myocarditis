@@ -1,0 +1,3 @@
+# Myocarditis Prediction
+
+Myocarditis, one of the great consequence of Covid-19 due to which many people got affected and  loss their life .Here a few data are available in the literature about the incidence and clinical significance in patients affected by SARS-CoV-2. Myocarditis occurs when the heart muscle becomes inflamed and inflammation occurs when your body’s immune system responds to infections . It can be diagnosed using cardiac magnetic resonance image (MRI), a non-invasive imaging technique with the possibility of operator bias. This paper proposes different machine learning algorithms to detect myocarditis
