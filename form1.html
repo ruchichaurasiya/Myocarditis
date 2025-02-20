@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+      .bg-img {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_437743.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+      }
+
+body{
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-position:center;
+background-size:cover;
+}
+label:after{
+content:": ";
+}
+
+label{
+color:black;
+font-weight:bold;
+display:inline-block;
+width:500px;
+text-align:left;
+font-size:150%;
+padding-left:50px;
+}
+
+form button[type='submit']
+{
+display:inline-block;
+width:100px;
+}
+.button {
+  background-color: #04AA6D;
+  border: none ;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+
+</style>
+
+</head>
+<body>
+    <div class="bg-img">
+<div class="login" align="center">
+<b><font style="color:black" "font-family:"verdana" size="5"><h1>Myocarditis prediction</h1></font></b><br>
+<br>
+
+<form method="post" action='/predict'>
+<label for="Age">Enter your Age</label>
+<input type="text" name="Age" id="Age" palceholder="" required="required"/><br><br>
+
+<label for="Sex">Enter your Sex(0:Male/1:Female)</label>
+<input type="text" name="Sex" id="Sex" palceholder="" required="required"/><br><br>
+
+<label for="Covid-19">Have you ever diagnosed for Covid-19(1:yes/0:No)</label>
+<input type="text" name="Covid-19" id="Chest Pain Type" palceholder="" required="required"/><br><br>
+
+<label for="Total protein count">Enter Total Protein Count</label>
+<input type="text" name="Total protein count" id="Resting blood pressure" palceholder="" required="required"/><br><br>
+
+<label for="Total albumin count">Enter Total albumin count</label>
+<input type="text" name="Total albumin count" id="serum Cholesterol" palceholder="" required="required"/><br><br>
+
+<label for="CRP">C-reactive protein (CRP)(inflammation in your body)</label>
+<input type="text" name="CRP" id="Age" palceholder="" required="required"/><br><br>
+
+<label for="LHD">Lactate dehydrogenase (LDH) enzyme</label>
+<input type="text" name="LHD" id="Age" palceholder="" required="required"/><br><br>
+
+<label for="CK_MB">Creatine kinase-myocardial band (CK_MB) enzyme that detect heart damage</label>
+<input type="text" name="CK_MB" id="Age" palceholder="" required="required"/><br><br>
+
+<label for="HeartRate">Enter your HeartRate</label>
+<input type="text" name="HeartRate" id="Age" palceholder="" required="required"/><br><br>
+
+<label for="Platelets count">Enter total Platelets count</label>
+<input type="text" name="Platelets count" id="Age" palceholder="" required="required"/><br><br>
+
+<label for="Lyphnocites">Total Lyphnocites count(white blood cell)</label>
+<input type="text" name="Lyphnocites" id="Age" palceholder="" required="required"/><br><br>
+
+<label for="Neurophils">Neurophils level(enzyme to detect stress)</label>
+<input type="text" name="Neurophils" id="Age" palceholder="" required="required"/><br><br>
+
+<label for="Basophils">Basophils level(enzyme to improve blood circulation)</label>
+<input type="text" name="Basophils" id="Age" palceholder="" required="required"/><br><br>
+
+<center><button type="submit" class="button">Predict</button></center>
+</form>
+<br>
+</div><div>
+</div>
+</body>
+</html>
